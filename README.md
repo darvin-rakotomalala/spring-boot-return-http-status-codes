@@ -71,7 +71,7 @@ public class TestController {
 par programme tous les aspects d'une réponse HTTP. Cela inclut les en-têtes, le corps et, bien sûr, le code d'état. 
 Cette méthode est la manière la plus détaillée de renvoyer une réponse HTTP dans Spring Boot, mais aussi la plus personnalisable.<br/>
 
-*Exemple : *<br/>
+*Exemple :*<br/>
 ```
 @Controller
 @ResponseBody
@@ -108,7 +108,7 @@ dans des cas exceptionnels est la classe `ResponseStatusException`. Il est utili
 code d'état HTTP qui sera renvoyé lorsqu'une erreur se produit. C'est une alternative à l'utilisation de `@ExceptionHandler` et 
 `@ControllerAdvice`. La gestion des exceptions à l'aide `ResponseStatusException` est considérée comme plus fine.
 
-*Exemple : *<br/>
+*Exemple :*<br/>
 ```
 @Controller
 @ResponseBody
